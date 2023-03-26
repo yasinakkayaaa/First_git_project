@@ -4,12 +4,12 @@
     * go to github
     *Repositories> Create New Repository > first_git_project
 3.Create a new Commit for the First time
-   *git init
-   *git add .
-   *git commit -m "first commit"
-   *git branch -M main
-   *git remote add origin https://github.com/yasinakkayaaa/first_git_project.git
-   *git push -u origin main
+ONLY ONCE   *git init
+EVERY TIME   *git add .
+EVERY TIME    *git commit -m "first commit"
+ONLY ONCE   *git branch -M main
+ONLY ONCE   *git remote add origin https://github.com/yasinakkayaaa/first_git_project.git
+ONLY ONCE   *git push -u origin main
    ****** Then your code should be pushed to github.REFRESH YOUR PAGE TO SEE CODE
 
 NOTE:git status -> This is our friend.This can be used anytime to see the progress
