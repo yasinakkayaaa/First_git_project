@@ -23,3 +23,19 @@ NOTE:git status -> This is our friend.This can be used anytime to see the progre
 
 5.ADDING SPECIFIC FILES
     *Create 2 JAVA classes:MyThirdClass, MyFourthClass
+    *Create a commit with ONLY myFourthClass
+        *git add "src/first_git_package/MyFourthClass.java"
+        *git commit -m"adding fourth class"
+        *git push
+
+
+6-GIT PULL
+    *git pull is used to get the code from github
+    *git pull=git fetch + git merge
+        NOTE:if git pull throws error then use :
+        git fetch
+        git merge
+     *NOW THAT WE HAVE OUR LOCAL UPDATED, THEN COMMIT THE CODES AND PUSH ALL TOGETHER
+        *git add .
+        *git commit -m"commiting my codes"
+        *git push
