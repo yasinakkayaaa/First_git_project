@@ -84,6 +84,26 @@ NOTE:If you get error, just google the error message...
   ***********************DAY 2 *****************
   BRANCHING
   git branch -a -> show me all branch
+  git branch yasin -> create yasin branch
+  git checkout yasin ->switched to yasin branch
+  created a code :MySixthClass
+  create a new commit and push
+    git add .
+    git commit -m "message"
+    git push --set-upstream origin yasin
+Then codes will be in the remote yasin branch
+
+**One more side branch flow
+    Create a class "MySeventhClass"
+    create a new commit and push
+    git add .
+    git commit -m "message"
+    git push
+   Then new codes will be in remote yasin branch
+   Then in github expert or us will do:
+       Pull Request(PR) (US or Expert)
+       Then Code Review (Expert)
+       Then Code Merge (Expert)
 
 
 
