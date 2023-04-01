@@ -41,3 +41,49 @@ NOTE:git status -> This is our friend.This can be used anytime to see the progre
         *git push
     NOTE:PULL BEFORE PUSH
         *git pull -> git add . -> git commit -m "message" -> git push
+
+        ************** DAY 1 SUMMARY**********
+Prerequisites:
+*Git Install
+*GitHub account
+*Git Authentication(create token ,add username and token so ypur account verification is complete)
+*****First Time Git Push******
+*git init
+*FOLLOW THE INSTRUCTION IN PUR GITHUB REPOSITORY
+    echo "# demo-repo" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/yasinakkayaaa/demo-repo.git
+    git push -u origin main
+NOTE:If you get error, just google the error message...
+
+********Second Time Git push*******
+    git add .
+    git commit -m "any message"
+    git push
+
+****GIT PULL
+    git pull gets latest git hub code in our local
+    git pull=git fetch + git merge
+
+***CONFLICT
+    When we try to merge the code that are in the - SAME spot has DIFFERENT codes-
+****How to Resolve conflict?
+    Manually fix:remove the illegal characters(error message)
+    create a new commit(add,commit)
+    then push
+
+****To minimize conflict,we can clone the project ,add our new code quickly then commit then push
+    git clone https://github.com/yasinakkayaaa/first_git_project.git
+    add your new codes
+    git add .
+    git commit -
+    git push
+  ***********************DAY 2 *****************
+  BRANCHING
+
+
+
+
