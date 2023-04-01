@@ -83,6 +83,7 @@ NOTE:If you get error, just google the error message...
     git push
   ***********************DAY 2 *****************
   BRANCHING
+  git branch -a -> show me all branch
 
 
 
